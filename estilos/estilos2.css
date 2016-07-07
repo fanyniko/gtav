@@ -1,0 +1,157 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:#000;
+}
+#contenedor{
+
+	
+	margin-top:10px;
+	background:#000;
+	height: 1070px;
+	width: 782px;
+	margin-right: auto;/*centrado*/
+	margin-left: auto;
+	box-shadow: 5px 5px 10px red;
+	border: solid #000;
+	border-radius:10px;
+}
+header{
+	background-color:#000;
+	width: 750px;
+	height: 100px;
+	padding: 8px 15px;
+	border-radius:1px;
+}
+
+header h1{
+	background-color:none;/*imagen gif gta5*/
+	width: auto;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+header #menu{
+	background:url(../imagenes/logofany1.jpg);
+	width: 490px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+
+}
+#banner{
+	width: 700px;
+	height: 313px;
+	background:url(../imagenes/logotipo6.gif);
+	display: inline-block;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	float: center;
+
+
+}
+#noticias{
+	width: 760px;
+	height: 215px;
+	background-color: #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+#tienda{
+	width: 760px;
+	height: 190px;
+	background-color: #666;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align:center;
+
+}
+#marcas{
+	background:url(../imagenes/fany182.jpg);
+	width: 780px;
+	height: 200px;
+}
+footer{
+	background-color:red;
+	width: 780px;
+	height: 20px;
+	padding-top: 2px;
+}
+footer p{
+	font-family:verdana;
+	font-size:.9em;
+	text-align: center;
+}
+#noticias #noticia1{
+	background:#ccc;
+	width: 250px;
+	height: 205px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+#noticias #noticia2{
+	background:url(../imagenes/gtav3.gif);
+	width: 250px;
+	height: 205px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+#noticias #noticia3{
+	background-color: #ccc;
+	width: 250px;
+	height: 205px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#tienda #producto1{
+	background-color: green;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align:top;
+	margin: 0px 2px;
+}
+
+#tienda #producto2{
+	background-color: red;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align:top;
+	margin: 0px 2px;
+
+}
+#tienda #producto3{
+	background: pink;
+	width:180px;
+	height: 180px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 2px;
+}
+#tienda #producto4{
+	background-color:blue;
+	width: 180px;
+	height:180px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 2px;
+}
